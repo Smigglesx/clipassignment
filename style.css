@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image:linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+        ),
+    url(image/pexels-asadphoto-2724079.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    /* margin-right: 300px; */
+}
+.link-wrapps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-right: 35%;
+}
+.link-wrapps li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.soso {
+    /* margin-right: 300px; */
+    margin-right: 70px;
+    margin-left: 0px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+span {
+    color: green;
+}
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    clip-path: polygon(50% 5%, 86% 23%, 86% 68%, 50% 88%, 15% 66%, 15% 23%);
+    position: absolute;
+    right: 180px;
+    margin-top: -350px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ), 
+    url(image/pexels-vincent-gerbouin-445991-1179156.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two {
+    width: 220px;
+    height: 220px;
+    background-color: palevioletred;
+    clip-path: polygon(50% 5%, 86% 23%, 86% 68%, 50% 88%, 15% 66%, 15% 23%);
+    position: absolute;
+    margin-top: -200px;
+    right: 80px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ), 
+    url(image/pexels-quark-studio-1159039-2507031.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    margin-left: 560px;
+    margin-top: -280px;
+    clip-path: polygon(50% 5%, 86% 23%, 86% 68%, 50% 88%, 15% 66%, 15% 23%);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ), 
+    url(image/pexels-arthousestudio-4571791.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four {
+    width: 190px;
+    height: 190px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 69px;
+    /* right: -px; */
+    left: 899px;
+    clip-path: polygon(50% 0%, 91% 29%, 91% 76%, 50% 100%, 50% 100%, 11% 75%, 11% 28%);
+}
+.five {
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: -90px;
+    right: 0px;
+    clip-path: polygon(64% 22%, 100% 23%, 100% 54%, 79% 68%, 16% 35%, 16% 20%);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ),
+    url(image/pexels-pixabay-221457.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.six {
+    width: 290px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    /* left: 0px; */
+    right: 0;
+    /* top: 350px; */
+    bottom: -1px;
+    margin: auto;
+    clip-path: polygon(44% 27%, 99% 0, 100% 100%, 46% 100%, 46% 85%, 45% 55%);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ),
+    url(image/pexels-keegan-checks-1434513-14524363.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seven {
+    width: 165px;
+    height: 190px;
+    background-color: goldenrod;
+    position: absolute;
+    left: 829px;
+    /* top: 10px; */
+    bottom: -2px;
+    margin: auto;
+    clip-path: polygon(51% 47%, 51% 48%, 93% 71%, 88% 98%, 14% 98%, 9% 72%);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ),
+    url(image/pexels-anntarazevich-5499258.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+.puf {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 50px; */
+    margin-top: 50px;
+}
+.mani {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 300px;
+    top: 260px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.lani {
+    position: absolute;
+    left: 300px;
+    top: 289px;
+    font-size: 100px;
+}
+.meca {
+    position: absolute;
+    top: 200px;
+    font-size: 100px;
+    left: 60px;
+    color: whitesmoke;
+}
+.bani {
+    position: relative;
+   display: flex;
+   justify-content: ;
+   align-items: center;
+   bottom: -159px;
+   left: 300px;
+   font-size: 1rem;
+   color: whitesmoke;
+}
+.juno {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 197px;
+}
+.pobo {
+    margin-top: -30px;
+}
+.dig {
+    width: 100px;
+    height: 40px;
+}
+
